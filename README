@@ -1,0 +1,6 @@
+USB to WS2801 bridge.
+Based on STM32 CustomHID example.
+
+Make with the following command:
+
+make TOOLS_PATH=/C/.../GNU_Tools_ARM_Embedded/4.8_2014q3 STM32_STD_PERIPH_LIB=/C/.../STM32F10x_StdPeriph_Lib_V3.5.0 STM32_USB_LIB=/C/.../STM32_USB-FS-Device_Lib_V4.0.0
