@@ -123,7 +123,7 @@ $(BIN): $(OBJDIR) $(ALL_OBJ)
 
 clean:
 	rm -f $(ALL_OBJ) $(BIN).map $(BIN) $(BIN).list
-	rmdir $(OBJDIR)
+	rm -rf $(OBJDIR)
 
 load: $(BIN)
 	st-flash write $(BIN).bin 0x08000000

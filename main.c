@@ -5,7 +5,7 @@
 GPIO_InitTypeDef GPIO_InitStructure;
 SPI_InitTypeDef SPI_InitStructure;
 
-inline void application__init(void) {
+void application__init(void) {
     RCC_Config();
 
     /* Enable GPIOC clock */
